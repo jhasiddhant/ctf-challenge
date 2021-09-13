@@ -16,7 +16,7 @@ function App() {
       style={{ minHeight: "100vh" }}
     >
       <div className="w-100" style={{ maxWidth: "400px" }}>
-        <Router>
+        <BrowseRouter>
           <AuthProvider>
             <Switch>
             <PrivateRoute exact path="ctf-challenge/" component={Dashboard} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="ctf-challenge/forgot-password" component={ForgotPassword} />
             </Switch>
           </AuthProvider>
-        </Router>
+        </BrowseRouter>
       </div>
     </Container>
   )
