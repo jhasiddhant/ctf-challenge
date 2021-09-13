@@ -19,11 +19,11 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-              <PrivateRoute exact path="/" component={Dashboard} />
-              <PrivateRoute path="/update-profile" component={UpdateProfile} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot-password" component={ForgotPassword} />
+            <PrivateRoute exact path="ctf-challenge/" component={Dashboard} />
+            <PrivateRoute path="ctf-challenge/update-profile" component={UpdateProfile} />
+            <Route path="ctf-challenge/signup" component={Signup} />
+            <Route path="ctf-challenge/login" component={Login} />
+            <Route path="ctf-challenge/forgot-password" component={ForgotPassword} />
             </Switch>
           </AuthProvider>
         </Router>
