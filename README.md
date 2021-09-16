@@ -4,6 +4,6 @@
 > 
 > Also, Intel contained something about an Irish hydrographer named Sir Francis. We have no idea what that is.
 > 
-> [Login Page](https://gumiho.netlify.app/login)
+> [Login Page](https://gumiho.netlify.app)
 
 ### For more challenges visit: [Gumiho](https://gumiho.live/challenge/)
